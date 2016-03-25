@@ -22,6 +22,7 @@ jobs:
         apps_domain: (( merge ))
         admin_username: admin
         admin_password: admin
+        test_password: longer_than_meow
       psql:
         service_name: postgres
         plan_names: '["shared", "shared-nr"]'

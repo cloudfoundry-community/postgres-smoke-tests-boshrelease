@@ -16,6 +16,9 @@ properties:
     description: "Username for Cloud Foundry admin account"
   cf.admin_password:
     description: "Password corresponding to <cf.admin_username>"
+  cf.test_password:
+    description: "The password for the user created to test the postgres instances"
+    default: "meow"
 
   psql.service_name:
     description: "Name of exposed postgres service."
